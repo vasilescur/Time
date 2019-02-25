@@ -1,0 +1,8 @@
+"0","activities %>%"
+"0","    mutate(week = format.POSIXct(start, ""%Y-%m-%W"")) %>%"
+"0","    group_by(week, activity) %>%"
+"0","    summarize(weekly_total = sum(minutes) / 60) %>%"
+"0","    ggplot(aes(x = week, y = weekly_total, color = activity, group = activity)) +"
+"0","        geom_point() +"
+"0","        geom_smooth(se = FALSE, span = 0.5) + "
+"0","        facet_grid(activity ~ .)"

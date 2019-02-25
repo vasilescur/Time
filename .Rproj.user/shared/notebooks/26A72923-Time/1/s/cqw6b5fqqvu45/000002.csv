@@ -1,0 +1,5 @@
+"0","hours <- minutes %>%"
+"0","    mutate(hour = format.POSIXct(date_time, format = ""%Y-%m-%d %H"")) %>%"
+"0","    group_by(hour) %>%"
+"0","    count(activity) %>%"
+"0","    spread(activity, n, fill = 0)"

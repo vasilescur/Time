@@ -1,0 +1,2 @@
+"0","minutes <- read.csv(""data_minutes.csv"", header = TRUE, stringsAsFactors = FALSE)"
+"0","activities <- read.csv(""data_clean.csv"", header = TRUE, stringsAsFactors = FALSE)"

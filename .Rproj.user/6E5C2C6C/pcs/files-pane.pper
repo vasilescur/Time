@@ -1,0 +1,17 @@
+{
+    "path" : "~/Programming/Data Visualizations/Time",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        },
+        {
+            "ascending" : false,
+            "columnIndex" : 1
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 3
+        }
+    ]
+}

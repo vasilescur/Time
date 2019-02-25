@@ -1,0 +1,7 @@
+"0","activities %>% "
+"0","    group_by(activity) %>%"
+"0","    summarize(total_time = sum(minutes) / 60) %>%"
+"0","    ggplot(aes(x = reorder(activity, total_time), y = total_time, fill = activity)) +"
+"0","        geom_bar(stat = ""identity"") +"
+"0","        coord_flip() +"
+"0","        labs(title = ""Total Time by Activity"", x = ""Activity"", y = ""Total Time (hours)"", fill = ""Activity"")"
