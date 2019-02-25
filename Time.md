@@ -299,7 +299,7 @@ activities %>%
 
 ![](Time_files/figure-html/netflix-vs-sleep-1.png)<!-- -->
 
-Okayt, seems fair. How about homework?
+Okay, seems fair. How about homework?
 
 
 ```r
