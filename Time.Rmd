@@ -299,7 +299,7 @@ activities %>%
              x = "Netflix (hours)", y = "Sleep (hours)")
 ```
 
-Okayt, seems fair. How about homework?
+Okay, seems fair. How about homework?
 
 ```{r homework-vs-sleep}
 activities %>%
